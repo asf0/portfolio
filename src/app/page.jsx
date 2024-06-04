@@ -112,21 +112,21 @@ export default function Home({ theme }) {
             </p>
             <div className="mb-5 mt-5">Python</div>
             <div className="flex items-center">
-              <Image src="/python.png" alt="Python Logo" className="mr-2 rounded-lg" width={40} height={40} />
+              <Image src="./python.png" alt="Python Logo" className="mr-2 rounded-lg" width={40} height={40} />
               <div className={`w-full h-6 ${theme === "light" ? "bg-gray-200" : "bg-gray-300"}`}>
                 <div className="h-6 bg-teal-500" style={{ width: '45%' }}></div>
               </div>
             </div>
             <div className="mb-5 mt-5">Java</div>
             <div className="flex items-center">
-              <Image src="/java.png" alt="Java Logo" className="mr-2 rounded-lg" width={40} height={40} />
+              <Image src="./java.png" alt="Java Logo" className="mr-2 rounded-lg" width={40} height={40} />
               <div className={`w-full h-6 ${theme === "light" ? "bg-gray-200" : "bg-gray-300"}`}>
                 <div className="h-6 bg-teal-500" style={{ width: '45%' }}></div>
               </div>
             </div>
             <div className="mb-5 mt-5">JavaScript</div>
             <div className="flex items-center">
-              <Image src="/js.png" alt="JavaScript Logo" className="mr-2 rounded-lg" width={40} height={40} />
+              <Image src="./js.png" alt="JavaScript Logo" className="mr-2 rounded-lg" width={40} height={40} />
               <div className={`w-full h-6 ${theme === "light" ? "bg-gray-200" : "bg-gray-300"}`}>
                 <div className="h-6 bg-teal-500" style={{ width: '45%' }}></div>
               </div>
