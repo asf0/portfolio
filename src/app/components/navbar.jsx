@@ -1,3 +1,4 @@
+import { useTheme } from '@app/components/themeContext';
 const Navbar = () => {
     const { theme, toggleTheme } = useTheme();
 
