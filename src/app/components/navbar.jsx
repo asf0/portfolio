@@ -7,10 +7,10 @@ const Navbar = () => {
             <div className="md:w-auto"></div>
             <ul className={`flex space-x-4 p-2 rounded-full border ${theme === 'light' ? 'bg-gray-100 border-gray-300' : 'bg-zinc-800 border-white-500-30 shadow-zinc'}`}>
                 <li>
-                    <a href="/" className={`px-4 py-2 rounded-full ${theme === 'light' ? 'hover:text-gray-900 hover:bg-gray-200' : 'hover:text-white hover:bg-gray-600'}`}>Home</a>
+                    <a href="/portfolio/" className={`px-4 py-2 rounded-full ${theme === 'light' ? 'hover:text-gray-900 hover:bg-gray-200' : 'hover:text-white hover:bg-gray-600'}`}>Home</a>
                 </li>
                 <li>
-                    <a href="/about" className={`px-4 py-2 rounded-full ${theme === 'light' ? 'hover:text-gray-900 hover:bg-gray-200' : 'hover:text-white hover:bg-gray-600'}`}>About</a>
+                    <a href="/portfolio/about" className={`px-4 py-2 rounded-full ${theme === 'light' ? 'hover:text-gray-900 hover:bg-gray-200' : 'hover:text-white hover:bg-gray-600'}`}>About</a>
                 </li>
                 <li>
                     <a href="/portfolio/projects" className={`px-4 py-2 rounded-full ${theme === 'light' ? 'hover:text-gray-900 hover:bg-gray-200' : 'hover:text-white hover:bg-gray-600'}`}>Projects</a>
