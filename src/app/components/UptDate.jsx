@@ -4,7 +4,7 @@ export default function UpToDate() {
     const { theme } = useTheme();
     return (
         <section className="shadow-md p-4 rounded-sm mb-4 mt-10">
-            <h2 className={`text-xl font-bold ${theme === 'light' ? 'text-zinc-800' : 'text-zinc-100'}`}>Stay up to
+            <h2 className={`text-xl font-bold ${theme === 'light' ? 'text-zinc-800' : 'text-zinc-100'}mt-4`}>Stay up to
                 date</h2>
             <form className="flex space-x-2">
                 <label

@@ -4,7 +4,7 @@ export default function Skills() {
     const { theme } = useTheme();
     return (
         <section className="shadow-md p-4 rounded-sm mb-4 mt-10">
-            <h2 className={`text-xl font-bold ${theme === 'light' ? 'text-zinc-800' : 'text-zinc-100'}`}>Skills</h2>
+            <h2 className={`text-xl font-bold ${theme === 'light' ? 'text-zinc-800' : 'text-zinc-100'} mt-4`}>Skills</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, incidunt numquam possimus fuga.
             </p>
