@@ -1,4 +1,4 @@
-import { useTheme } from '@app/components/themeContext';
+import { useTheme } from "./themeContext";
 const Navbar = () => {
     const { theme, toggleTheme } = useTheme();
 
