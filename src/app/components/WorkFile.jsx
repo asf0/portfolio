@@ -1,7 +1,7 @@
 import { useTheme } from "@/app/components/themeContext";
 
 export default function Work() {
-    const theme = useTheme();
+    const { theme } = useTheme();
     return (
         <section className="shadow-md p-4 rounded-sm mb-4 mt-10">
             <h2 className={`text-xl font-bold ${theme === 'light' ? 'text-zinc-800' : 'text-zinc-100'}`}>Work</h2>

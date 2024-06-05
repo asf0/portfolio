@@ -17,7 +17,7 @@ export default function Home() {
   <section className={`max-w-8xl w-full shadow-sm rounded-sm p-12 md:flex md:flex-row md:flex-col  justify-between`}>
   <div className="flex items-center mb-4">
       <Image 
-        src="./shiba.png" 
+        src="/shiba.png" 
         alt="Profile Picture" 
         className="rounded-full mr-4" 
         width={64} 
