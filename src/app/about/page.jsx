@@ -1,43 +1,30 @@
+"use client";
 import Image from 'next/image'
+import { useTheme } from '../components/themeContext.jsx';
+import Lr from '../components/Lorem';
 
 export default function About() {
+  const { theme } = useTheme();
   return (
     <main className="container mx-auto p-4 flex flex-col lg:flex-row lg:space-x-4">
       <section className="max-w-8xl w-full shadow-lg rounded-lg p-12 md:flex md:flex-row">
         <div className="md:w-2/4 md:pr-8">
-          <h1 className="text-2xl font-bold text-center">Welcome to my portfolio</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi vero possimus inventore consectetur! Sed eos dolor odit dolore! Nisi magni tempora aut laboriosam asperiores accusantium et unde explicabo. Maiores, obcaecati.
-          </p>
-          <div className="mt-6">
-            <article className="mb-4">
-              <h2 className="text-xl font-bold text-center">Article 1</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, incidunt numquam possimus fuga, optio modi officiis obcaecati doloremque neque beatae autem ea facilis. Nam fugit voluptas animi aut perspiciatis quo.
-              </p>
-            </article>
-            <article className="mb-4">
-              <h2 className="text-xl font-bold text-center">Article 2</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, incidunt numquam possimus fuga, optio modi officiis obcaecati doloremque neque beatae autem ea facilis. Nam fugit voluptas animi aut perspiciatis quo.
-              </p>
-            </article>
-            <article className="mb-4">
-              <h2 className="text-xl font-bold text-center">Article 3</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, incidunt numquam possimus fuga, optio modi officiis obcaecati doloremque neque beatae autem ea facilis. Nam fugit voluptas animi aut perspiciatis quo.
-              </p>
-            </article>
-          </div>
+          <h1 className={`text-5xl font-bold ${theme === 'light' ? 'text-zinc-800' : 'text-zinc-100'} mb-8`}>Welcome to
+            my portfolio</h1>
+          <Lr />
+          <Lr />
+          <Lr />
+          <Lr />
+          <Lr />
+          <Lr />
         </div>
-
         <div className="mx-auto text-center">
           <Image
-            src="./shiba.png"
-            width={400}
-            height={400}
-            alt="Picture of the author"
-            className="mx-auto"
+              src="/shiba.png"
+              width={464}
+              height={452}
+              alt="Picture of the author"
+              className="mx-auto"
           />
 
           <div className="flex flex-col space-y-4 mt-10 ms-20">
