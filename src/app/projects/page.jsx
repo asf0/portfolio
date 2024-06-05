@@ -5,7 +5,7 @@ export default function Projects() {
         <main className="container mx-auto p-4 flex flex-col">
             <section className="max-w-8xl w-3/4 md:flex md:flex-row">
                 <div className="container mx-auto p-4">
-                    <h1 className="text-4xl font-bold mb-4">Things I've Done</h1>
+                    <h1 className="text-4xl font-bold mb-4">Things I&apos;ve Done</h1>
                     <p className="mb-10 md:w-3/4">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto corporis nobis sapiente
                         tenetur? Ea
