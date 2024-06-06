@@ -21,7 +21,7 @@ export default function About() {
         </div>
         <div className="mx-auto text-center">
           <Image
-              src="/shiba.png"
+              src="./shiba.png"
               width={464}
               height={452}
               alt="Picture of the author"

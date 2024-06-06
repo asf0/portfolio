@@ -57,32 +57,32 @@ const Navbar = () => {
             </div>
             <ul className={`hidden md:flex space-x-4 p-2 md:space-x-4 rounded-full border ${theme === 'light' ? 'bg-gray-100 border-gray-300' : 'bg-zinc-800 border-white-500-30 shadow-zinc'}`}>
                 <li>
-                    <a href="/" className={`px-4 py-2 rounded-full ${navTextTheme}`}>Home</a>
+                    <a href="/portfolio" className={`px-4 py-2 rounded-full ${navTextTheme}`}>Home</a>
                 </li>
                 <li>
-                    <a href="/about" className={`px-4 py-2 rounded-full ${navTextTheme}`}>About</a>
+                    <a href="/portfolio/about" className={`px-4 py-2 rounded-full ${navTextTheme}`}>About</a>
                 </li>
                 <li>
-                    <a href="/projects" className={`px-4 py-2 rounded-full ${navTextTheme}`}>Projects</a>
+                    <a href="/portfolio/projects" className={`px-4 py-2 rounded-full ${navTextTheme}`}>Projects</a>
                 </li>
                 <li>
-                    <a href="/uses" className={`px-4 py-2 rounded-full ${navTextTheme}`}>Uses</a>
+                    <a href="/portfolio/uses" className={`px-4 py-2 rounded-full ${navTextTheme}`}>Uses</a>
                 </li>
             </ul>
             <div className="relative md:hidden">
                 <div id="dropdown" className={`${isOpen ? 'block' : 'hidden'} fixed top-16 left-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700`}>
                     <ul className="py-2 text-sm text-gray-700 dark:text-gray-200 " aria-labelledby="dropdownDefaultButton">
                         <li>
-                            <a href="/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Home</a>
+                            <a href="/portfolio" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Home</a>
                         </li>
                         <li>
-                            <a href="/about" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About</a>
+                            <a href="/portfolio/about" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About</a>
                         </li>
                         <li>
-                            <a href="/projects" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Projects</a>
+                            <a href="/portfolio/projects" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Projects</a>
                         </li>
                         <li>
-                            <a href="/uses" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Uses</a>
+                            <a href="/portfolio/uses" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Uses</a>
                         </li>
                     </ul>
                 </div>
