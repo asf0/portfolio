@@ -80,6 +80,11 @@ import Article from "./components/ArticleFile";
 import Work from "./components/WorkFile";
 import UpToDate from "@/app/components/UptDate";
 
+export const metadata = {
+  title: "Home",
+  description: "This is the home page",
+};
+
 export default function Home() {
   const { theme } = useTheme();
 
