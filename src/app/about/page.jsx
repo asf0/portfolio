@@ -1,15 +1,16 @@
 "use client";
 import Image from 'next/image'
-import { useTheme } from '../components/themeContext.jsx';
+import { useTheme } from '../components/themeContext';
 import Lr from '../components/Lorem';
 
 export default function About() {
   const { theme } = useTheme();
+  const textColor = theme === 'light' ? 'text-zinc-800' : 'text-zinc-100';
   return (
     <main className="container mx-auto p-4 flex flex-col lg:flex-row lg:space-x-4">
       <section className="max-w-8xl w-full shadow-lg rounded-lg p-12 md:flex md:flex-row">
         <div className="md:w-2/4 md:pr-8">
-          <h1 className={`text-5xl font-bold ${theme === 'light' ? 'text-zinc-800' : 'text-zinc-100'} mb-8`}>Welcome to
+          <h1 className={`text-5xl font-bold ${textColor} mb-8`}>Welcome to
             my portfolio</h1>
           <Lr />
           <Lr />
@@ -20,14 +21,14 @@ export default function About() {
         </div>
         <div className="mx-auto text-center">
           <Image
-              src="./shiba.png"
+              src="/shiba.png"
               width={464}
               height={452}
               alt="Picture of the author"
               className="mx-auto"
           />
 
-          <div className="flex flex-col space-y-4 mt-10 ms-20">
+          <div className={`flex flex-col space-y-4 mt-10 ms-20 ${textColor} mb-8`}>
             <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-twitter-x" viewBox="0 0 16 16">
                 <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>

@@ -2,9 +2,10 @@ import { useTheme } from "@/app/components/themeContext";
 
 export default function UpToDate() {
     const { theme } = useTheme();
+    const textColor = theme === 'light' ? 'text-zinc-800' : 'text-zinc-100';
     return (
         <section className="shadow-md p-4 rounded-sm mb-4 mt-10">
-            <h2 className={`text-xl font-bold  ${theme === 'light' ? 'text-zinc-800' : 'text-zinc-100'}`}>Stay up to
+            <h2 className={`text-xl font-bold  ${textColor}`}>Stay up to
                 date</h2>
             <form className="flex space-x-2 mt-4">
                 <label
