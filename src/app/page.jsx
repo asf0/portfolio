@@ -78,7 +78,7 @@ import Lr from "./components/Lorem";
 import Skills from "./components/SkillsFile";
 import Article from "./components/ArticleFile";
 import Work from "./components/WorkFile";
-import UpToDate from "@/app/components/UptDate";// Fixed typo from UptDate to UpToDate
+import UpToDate from "@/app/components/UptDate";
 
 export default function Home() {
   const { theme } = useTheme();

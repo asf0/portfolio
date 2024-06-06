@@ -84,7 +84,7 @@ import React from 'react';
 import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 import './globals.css';
-import { ThemeProvider, useTheme } from './components/themeContext'; // Correct import path
+import { ThemeProvider, useTheme } from './components/themeContext';
 import Navbar from "@/app/components/navbar";
 import Footer from "@/app/components/footer";
 
